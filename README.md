@@ -18,7 +18,7 @@
 
 ![Python](https://img.shields.io/badge/-Python-306998?style=for-the-badge&logo=Python&logoColor=white)
 ![R](https://img.shields.io/badge/-R-165CAA?style=for-the-badge&logo=R&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-165CAA?style=for-the-badge&logo=SQL&logoColor=white)
+![SQL](https://img.shields.io/badge/-SQL-FF6F00?style=for-the-badge&logo=SQL&logoColor=white)
 
 
 #### Libraries I Use

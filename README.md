@@ -28,10 +28,11 @@
 ![Scipy](https://img.shields.io/badge/-Scipy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
 ![Scikit](https://img.shields.io/badge/-scikit%20learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?style=for-the-badge&logo=Plotly&logoColor=white)
-
+![Seaborn](https://img.shields.io/badge/Seaborn-6478a6?style=for-the-badge&logo=Seaborn&logoColor=white)
+![Requests](https://img.shields.io/badge/Requests-black.svg?style=for-the-badge&logo=Requests&logoColor=white)
 
 #### Visualization Software
-![Tableau](https://img.shields.io/badge/-Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![Tableau](https://img.shields.io/badge/-Tableau-3F4F75?style=for-the-badge&logo=tableau&logoColor=white)
 ![PowerBI](https://img.shields.io/badge/-Power%20BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)
 
 

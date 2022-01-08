@@ -62,7 +62,7 @@ Below projects are part of my Data Science portfolio
 
 -  [Auto Insurance Claims Exploratory Data Analysis using Python]
 
--  [COVID-19 Cases and Vaccination Supplies Study - Data Wrangling and Analytics]
+-  [COVID-19 Cases and Vaccination Supplies Study - Data Wrangling and Analytics](https://github.com/pchougule-ms/pchougule-ms/tree/main/Data%20Science%20Portfolio/COVID-19%20Cases%20and%20Vaccination%20supplies%20study)
 
 -  [Credit Card Lead Predictions]
 

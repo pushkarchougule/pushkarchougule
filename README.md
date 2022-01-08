@@ -62,7 +62,7 @@ Below projects are part of my Data Science portfolio
 
 -  [Auto Insurance Claims Exploratory Data Analysis using Python]
 
--  [COVID-19 Cases and Vaccinations Study - Data Wrangling and Analytics]
+-  [COVID-19 Cases and Vaccination Supplies Study - Data Wrangling and Analytics]
 
 -  [Credit Card Lead Predictions]
 

@@ -70,7 +70,7 @@ Below projects are part of my Data Science portfolio
 
 -  [Housing Prices Exploratory Data Analysis using R](https://github.com/pchougule-ms/pchougule-ms/tree/main/Data%20Science%20Portfolio/Housing%20Prices%20EDA)
 
--  [Telecom Company Customer Churn Predictions]
+-  [Telecom Company Customer Churn Predictions](https://github.com/pchougule-ms/pchougule-ms/tree/main/Data%20Science%20Portfolio/Telecom%20Company%20Customer%20Churn%20Predictions)
 
 
 <!--

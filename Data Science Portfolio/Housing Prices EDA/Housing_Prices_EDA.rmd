@@ -1,0 +1,404 @@
+---
+title: "RMarkdown DSC 520 - Project"
+author: "Pushkar Chougule"
+date: "Nov 20th 2020"
+output:
+  pdf_document: default
+  word_document: default
+  html_document:
+    df_print: paged
+bibliography: bibliography.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+
+```{r }
+
+library(ggplot2)
+
+library(car)
+
+```
+
+
+**initial reading of California Housing prices csv **
+
+
+```{r warning=FALSE,echo=FALSE}
+
+Cal_df <- read.csv('California_Housing_prices.csv', header = TRUE)
+
+Cal_df$ocean_proximity <- as.factor(Cal_df$ocean_proximity)
+
+str(Cal_df)
+
+#summary(Cal_df)
+
+```
+
+
+**histograms and scatter plots for initial analysis **
+
+
+```{r warning=FALSE, echo=FALSE}
+
+ggplot(Cal_df, aes(x=ocean_proximity, fill=ocean_proximity)) + geom_histogram(stat="count")
+
+ggplot(Cal_df, aes(x=housing_median_age, y=median_house_value)) + geom_point()
+
+ggplot(Cal_df, aes(x=total_rooms, y=median_house_value)) + geom_point()
+
+ggplot(Cal_df, aes(x=total_bedrooms, y=median_house_value)) + geom_point()
+
+ggplot(Cal_df, aes(x=ocean_proximity, y=median_house_value)) + geom_point()
+
+ggplot(Cal_df, aes(x=population, y=median_house_value)) + geom_point()
+
+ggplot(Cal_df, aes(x=median_income, y=median_house_value)) + geom_point()
+
+```
+
+>1) There are 5 distinct categories in the ocean proximity variables
+
+>2) Housing median age vs. median house value scatter plot
+
+>3) scatter plot for total rooms vs. median house value
+
+>4) scatter plot for total bedrooms vs. median house value
+
+>5) Median House value price ranges are similar in each of the ocean proximity category, looking at the scatter plot
+
+>6) scatter plot for population vs median house value
+
+>7) median income vs median house value
+
+
+>California Housing prices dataset has 10 columns including median house value and population, ocean proximity etc. there was not much significance and data was almost equally distributed. Thus not enough variables available for analysis. Also, when looked at the plots between. The total number of rooms, bedrooms data is not in standard format and would skew other dataset info, if merged with it. Hence decided not to use this dataset.
+
+**initial reading of London Housing prices csv **
+
+
+```{r echo=FALSE}
+
+london_csv <- read.csv('London_Housing_prices.csv', header = TRUE)
+
+london_csv$House_Type <- as.factor(london_csv$House_Type)
+
+london_df <- london_csv[,c("Price", "House_Type", "Area_sqft", "Num_Bedrooms", "Num_Bathrooms", "Num_Receptions")]
+
+#london_df <- data.frame(london_csv$Price, london_csv$House_Type, london_csv$Area_sqft, #london_csv$Num_Bedrooms, london_csv$Num_Bathrooms, london_csv$Num_Receptions)
+
+#colnames <- c("Price", "House_Type", "Area_sqft", "Num_Bedrooms", "Num_Bathrooms", #"Num_Receptions")
+
+#colnames(london_df) <- colnames
+
+str(london_df)
+
+#summary(london_df)
+
+```
+
+**London housing data initial analysis histogram**
+
+```{r warning=FALSE, echo=FALSE}
+
+ggplot(london_df, aes(x=House_Type, fill=House_Type)) + geom_histogram(stat="count")
+
+```
+
+>London Housing prices dataset has just about 11 column variables and some of those variables do not seem to have relation for being picked as predictor (Sequence ID, Property name, Blank / Invalid Location values and in some cases consist of partial street address). Also, the sale prices are in Pounds, which may not be relevant. So decided not to use the dataset.
+
+
+**initial reading of US Housing prices csv file and summary**
+
+
+```{r warning=FALSE, echo=FALSE}
+
+
+US_csv <- read.csv('US_Housing_prices.csv', header = TRUE)
+
+housing_df1 <- data.frame(US_csv[,c("MSSubClass", "MSZoning", "LotFrontage", "LotArea", "BldgType", "HouseStyle", "LotConfig", "Neighborhood", "Condition1", "Condition2", "Foundation", "RoofStyle", "RoofMatl", "Exterior1st", "Exterior2nd", "ExterQual" , "HeatingQC", "Electrical", "OverallQual", "OverallCond", "YearBuilt", "YearRemodAdd", "MasVnrArea", "MasVnrType", "WoodDeckSF", "OpenPorchSF", "EnclosedPorch", "BsmtFinSF1", "TotalBsmtSF", "BsmtFinType1", "BsmtQual", "GrLivArea", "FullBath", "HalfBath", "BedroomAbvGr", "TotRmsAbvGrd", "GarageArea", "Fence", "SalePrice")])
+
+#converting NA values into 'Unknown' values for further analysis and avoiding impacts of NA / missing values
+housing_df1$LotFrontage[is.na(housing_df1$LotFrontage)] <- 0
+housing_df1$BsmtQual[is.na(housing_df1$BsmtQual)] <- "Unk"
+housing_df1$BsmtFinType1[is.na(housing_df1$BsmtFinType1)] <- "Unk"
+housing_df1$MasVnrType[is.na(housing_df1$MasVnrType)] <- "Unk"
+
+housing_df1$MSSubClass <- as.factor(housing_df1$MSSubClass)
+housing_df1$MSZoning <- as.factor(housing_df1$MSZoning)
+housing_df1$BldgType <- as.factor(housing_df1$BldgType)
+housing_df1$HouseStyle <- as.factor(housing_df1$HouseStyle)
+housing_df1$OverallCond <- as.factor(housing_df1$OverallCond)
+housing_df1$OverallQual <- as.factor(housing_df1$OverallQual)
+housing_df1$Fence <- as.factor(housing_df1$Fence)
+housing_df1$MasVnrType <- as.factor(housing_df1$MasVnrType)
+
+summary(housing_df1)
+
+```
+
+
+>US Housing prices dataset has plenty of variables (81 in all) and hence I will be using this dataset for my analysis purpose. I have manually looked at the data variables and also used some of the plots to understand the data points / variables. I have tried to capture this information below. Noticed that TotalBsmtSF is the addition of BsmtFinSF1,  BsmtFinSF2 and BsmtUnfSF. Similarly 1stFlrSF and 2ndFlrSF columns values are combined into and it is present in variable GrLivArea. 
+
+
+**histogram plots for initial analysis of data to also help with data cleanup steps **
+
+
+```{r warning=FALSE,echo=FALSE,message=FALSE}
+
+library(ggplot2)
+
+ggplot(housing_df1, aes(x=MSZoning, fill=MSZoning)) + xlab('Zoning') + geom_histogram(stat = "count")
+
+ggplot(housing_df1, aes(x=HouseStyle, fill=HouseStyle)) + geom_histogram(stat = "count")
+
+ggplot(housing_df1, aes(x=BldgType, fill=BldgType)) + xlab('Building Type') + geom_histogram(stat = "count")
+
+ggplot(housing_df1, aes(x=Fence, fill=Fence)) + geom_histogram(stat = "count")
+
+ggplot(housing_df1, aes(x=LotArea)) + geom_histogram(stat = "bin")
+
+ggplot(housing_df1, aes(x=SalePrice)) + geom_histogram(stat = "bin")
+
+```
+
+
+**box plots and scatter plots for initial analysis of data to also help with data cleanup steps **
+
+
+```{r warning=FALSE, echo=FALSE, message=FALSE}
+
+ggplot(housing_df1, aes(x=MSSubClass, y=SalePrice, col=MSSubClass)) + xlab('Sub Class') + geom_boxplot()
+ggplot(housing_df1, aes(x=HouseStyle, y=SalePrice, col=HouseStyle)) + geom_boxplot()
+ggplot(housing_df1, aes(x=BldgType, y=SalePrice, col=BldgType)) + xlab('Building Type') + geom_boxplot()
+ggplot(housing_df1, aes(x=MSZoning, y=SalePrice, col=MSZoning)) + xlab('Zoning') + geom_boxplot()
+ggplot(housing_df1, aes(x=LotArea, y=SalePrice)) + geom_boxplot()
+ggplot(housing_df1, aes(x=OverallQual, y=SalePrice, col=OverallQual)) + xlab('Overall Quality') + geom_boxplot()
+ggplot(housing_df1, aes(x=OverallCond, y=SalePrice, col=OverallCond)) + xlab('Overall Condition') + geom_boxplot()
+
+ggplot(housing_df1, aes(x=LotFrontage, y=SalePrice)) + xlab('Frontage area') + geom_point()
+ggplot(housing_df1, aes(x=LotArea, y=SalePrice)) + geom_point()
+ggplot(housing_df1, aes(x=BsmtFinSF1, y=SalePrice)) + xlab('Basement1 area') + geom_point()
+ggplot(housing_df1, aes(x=TotalBsmtSF, y=SalePrice)) + xlab('Total Basement area') + geom_point()
+ggplot(housing_df1, aes(x=Fence, y=SalePrice, col=Fence)) + geom_boxplot()
+
+ggplot(housing_df1, aes(x=YearRemodAdd, y=SalePrice)) + xlab('Year Remodeled ') + geom_point()
+ggplot(housing_df1, aes(x=MasVnrArea, y=SalePrice)) + xlab('Masonry Veneer Area') + geom_point()
+
+ggplot(housing_df1, aes(x=WoodDeckSF, y=SalePrice)) + xlab('Wood Deck area') + geom_point()
+ggplot(housing_df1, aes(x=OpenPorchSF, y=SalePrice)) + xlab('Open Porch area') + geom_point()
+ggplot(housing_df1, aes(x=EnclosedPorch, y=SalePrice)) + xlab('Enclosed Porch area') + geom_point()
+
+
+```
+
+**data cleanup / delete outliers and create data subset and summary() of the same subset**
+
+>the variables selected in the current subset dataframe have been arrived at after multiple iterations of the model and fine tuning to add / drop variables from the subset to achieve better accuracy.
+
+
+```{r warning=FALSE, echo=FALSE}
+
+# deleted outliers for LotArea and SalePrice variables greater than 3Q + 1.5IQR
+housing_df2 <- housing_df1[ which (housing_df1$LotArea < 18000 & housing_df1$SalePrice < 340100), ]
+
+
+housing_df <- data.frame(housing_df2$MSSubClass, housing_df2$MSZoning, housing_df2$BldgType, housing_df2$HouseStyle, housing_df2$LotConfig, housing_df2$Neighborhood, housing_df2$Condition1, housing_df2$Condition2, housing_df2$Foundation, housing_df2$RoofStyle, housing_df2$RoofMatl, housing_df2$Exterior1st, housing_df2$Exterior2nd, housing_df2$ExterQual, housing_df2$HeatingQC, housing_df2$Electrical, housing_df2$LotFrontage, housing_df2$LotArea,  housing_df2$OverallQual, housing_df2$OverallCond, housing_df2$YearBuilt, housing_df2$YearRemodAdd, housing_df2$MasVnrArea, housing_df2$MasVnrType, housing_df2$WoodDeckSF, housing_df2$OpenPorchSF, housing_df2$EnclosedPorch, housing_df2$BsmtFinSF1, housing_df2$TotalBsmtSF, housing_df2$BsmtFinType1, housing_df2$BsmtQual, housing_df2$GrLivArea, housing_df2$FullBath, housing_df2$HalfBath, (housing_df2$FullBath + (housing_df2$HalfBath * 0.5)), housing_df2$BedroomAbvGr, housing_df2$TotRmsAbvGrd, housing_df2$GarageArea, housing_df2$SalePrice)
+
+colnames(housing_df) <- c("MSSubClass", "MSZoning", "BldgType", "HouseStyle", "LotConfig", "Neighborhood", "Condition1", "Condition2", "Foundation", "RoofStyle", "RoofMatl", "Exterior1st", "Exterior2nd", "ExterQual" , "HeatingQC", "Electrical", "LotFrontage", "LotArea", "OverallQual", "OverallCond", "YearBuilt", "YearRemodAdd", "MasVnrArea", "MasVnrType", "WoodDeckSF", "OpenPorchSF", "EnclosedPorch", "BsmtFinSF1", "TotalBsmtSF", "BsmtFinType1", "BsmtQual", "GrLivArea", "FullBath", "HalfBath", "TotBaths", "BedroomAbvGr", "TotRmsAbvGrd", "GarageArea", "SalePrice")
+
+tot_rows <- NROW(housing_df)
+
+str(housing_df)
+
+summary(housing_df)
+
+```
+
+
+**Scatter Plots for relationship between Sale Price and some of the predictor variables **
+
+
+```{r warning=FALSE, echo=FALSE}
+
+ggplot(housing_df, aes(x=LotArea, y=SalePrice)) + geom_point()
+ggplot(housing_df, aes(x=GrLivArea, y=SalePrice)) + xlab('Total Living area') + geom_point()
+
+ggplot(housing_df, aes(x=GarageArea, y=SalePrice)) + geom_point()
+ggplot(housing_df, aes(x=BsmtFinType1, y=SalePrice, col=BsmtFinType1)) + xlab('Basement1 Finish Type') + geom_point()
+ggplot(housing_df1, aes(x=MasVnrType, y=SalePrice, col=MasVnrType)) + xlab('Masonry Veneer Type') + geom_point()
+
+ggplot(housing_df, aes(x=TotBaths, y=SalePrice)) + xlab('Total Bathrooms (calculated)') + geom_point()
+ggplot(housing_df, aes(x=YearBuilt, y=SalePrice)) + geom_point()
+
+ggplot(housing_df, aes(x=Condition1, y=SalePrice, col=Condition1)) + geom_point()
+ggplot(housing_df, aes(x=Condition2, y=SalePrice, col=Condition2)) + geom_point()
+ggplot(housing_df, aes(x=Foundation, y=SalePrice, col=Foundation)) + geom_point()
+
+```
+
+
+
+**head() from the modified subset data frame **
+
+
+```{r echo=FALSE}
+
+head(housing_df)
+
+```
+
+
+**correlation - R2 for various numeric variables with Sale Price **
+
+
+```{r warning=FALSE, message=FALSE}
+
+cor(housing_df$SalePrice, housing_df$LotArea)^2
+cor(housing_df$SalePrice, housing_df$YearBuilt)^2
+cor(housing_df$SalePrice, housing_df$YearRemodAdd)^2
+cor(housing_df$SalePrice, housing_df$GrLivArea)^2
+cor(housing_df$SalePrice, (housing_df$FullBath + (housing_df$HalfBath * 0.5)))^2
+cor(housing_df$SalePrice, housing_df$BedroomAbvGr)^2
+cor(housing_df$SalePrice, housing_df$TotRmsAbvGrd)^2
+cor(housing_df$SalePrice, housing_df$GarageArea)^2
+cor(housing_df$SalePrice, housing_df$BsmtFinSF1)^2
+cor(housing_df$SalePrice, housing_df$TotalBsmtSF)^2
+
+cor(housing_df$SalePrice, housing_df$WoodDeckSF)^2
+cor(housing_df$SalePrice, housing_df$OpenPorchSF)^2
+cor(housing_df$SalePrice, housing_df$EnclosedPorch)^2
+
+
+```
+
+**housing price prediction - multiple regression model creation and summary() of the models**
+
+```{r warning=FALSE, echo=FALSE}
+
+housing_mod_lm1 <- lm(SalePrice ~ Neighborhood + RoofStyle + LotArea + LotFrontage + OverallQual + OverallCond + YearBuilt + OpenPorchSF + GrLivArea + TotRmsAbvGrd + GarageArea + TotalBsmtSF, data = housing_df)
+
+summary(housing_mod_lm1)
+
+```
+
+>looking at model statistics iteratively, I refined the model a little bit from the beginning to include more relevant variables with higher impact on the prices and omit the ones having higher p values. Logistic regression is mainly useful for classification rather than predicting numeric values which can take any number of values, like house prices based on various factors. So, using only multiple linear regression model.
+
+
+**Finalized model with little better predictive power**
+
+```{r warning=FALSE, echo=FALSE, message=FALSE}
+
+housing_mod_lm <- lm(SalePrice ~ Neighborhood + RoofStyle + LotArea + LotFrontage + OverallQual + OverallCond + YearBuilt + OpenPorchSF + GrLivArea + TotRmsAbvGrd + GarageArea + TotalBsmtSF + Exterior1st + ExterQual + YearRemodAdd + MasVnrArea + MasVnrType + WoodDeckSF + BsmtFinType1 + MSSubClass + MSZoning + HouseStyle + LotConfig + Foundation + Condition1 + Condition2, data = housing_df)
+
+summary(housing_mod_lm)
+
+
+```
+
+>Finally, this derived model consists of about 27 predictor variables and produces little around 92.75% accuracy (Multiple R2 value). Adjusted R-squared value is around 92%. So, this differences is around 0.0075 a small value - less than 0.8%. Thus this model has slight variation in accuracy but can be a good representation of the large population of real world data with p-value of 15 zeroes prior to 22 i.e. very very small value and gives us good confidence that this model is a fairly accurate.
+
+
+**95 % confidence interval **
+
+
+```{r echo=FALSE}
+
+confint(housing_mod_lm, level = 0.95)
+
+```
+
+
+**analysis of variance **
+
+
+```{r }
+
+anova(housing_mod_lm)
+
+
+```
+
+>Analysis of Variance statistics for the given model help to confirm the significance of selected variables.
+
+**assumptions of independence durbin watson test**
+
+
+```{r message=FALSE, echo=FALSE}
+
+dwt(housing_mod_lm)
+
+```
+
+>From the Durbin-Watson test, we can see that Autocorrelation coefficient is around 0.03 - a small value and D-W statistic value is around 1.92, which is very close to 2. This indicates that the predictor variables we have selected may not be correlations amongst themselves. So, we should be good with these. Only slight concern is p-value is around 0.15 (above 0.05).
+
+
+**assumptions of no multicolinearity **
+
+```{r}
+
+v <- vif(housing_mod_lm)
+
+v
+
+1/v
+
+t <- 0
+
+for(i in 1:24)
+{
+    t = t + v[i, 3]
+}
+
+t/24
+
+```
+
+>Based on [@field2012discovering] book
+
+>All of the VIF values are well below 10. SO, there is no cause of concerns.
+
+>All of the tolerance values are well above 0.1, so there is no cause of concerns.
+
+>Mean of VIF values is little bit above 1, indicates our model might be slightly biased and may be needs to consider additional predictor variables or more cleaning of data needed or additional / larger size of data is needed. Current data size after filtering became 1344 records.
+
+
+**plot() and hist() function **
+
+
+```{r warning=FALSE, echo=FALSE, message=FALSE}
+
+plot(housing_mod_lm)
+
+hist(rstudent(housing_mod_lm))
+
+hist(cooks.distance(housing_mod_lm))
+
+
+```
+
+>As we can see, fitted line on Residuals vs Fitted values, is close to 0 residuals line and as we go towards the lower and upper extremes, the line seems to deviate from ideal fitted line. It can be improved with possibly more number of records for model creation and possibly reducing some of outliers on the lower and upper ends. Also in this plot, residuals in our model shows a fairly random pattern, which is indicative of situation in which the assumptions of linearity, randomness and homoscedasticity have been met.
+
+>Normal Q-Q plot shows most of the records fall between 2 standard deviations of the mean, mostly along the straight line fit and thus the model is a good representation of the data, for predictions.
+
+>Histogram of Studentized residuals also shows a close to normal distribution up to 2 standard deviations around mean, although we can confirm the same cases earlier that we might be having some level of outliers / skewness in the distribution which might be causing slight deviation of the residuals from the straight line.
+
+>All of the records have Cook's distance less than 1, hence we should be good about the model.
+
+>Looking at the model, it is fairly close representation of the sample and a generalizable model to the larger population. It can be improved further by deleting outliers for model building purpose. We may need to consider additional predictor variables or more cleaning of data is needed. Another way, perhaps could be finding additional / larger size of data, which can smoothen out the normal distribution even further and help improve accuracy of the model. Current data size after filtering became 1344 records. So, possibly a little larger data size could help.
+
+
+**Conclusion**
+
+>Overall, people interested in buying a house need to consider not only the basic factors like area / size, number of rooms / bathrooms, neighborhood, garage area, year of initial built but also the overall quality of the construction, Foundations well Roof types, when the house is remodeled, if applicable and Exteriors, open areas and masonry work along with Basement finishing. Based on different geographic locations, the proximity to key essentials and amenities like hospitals, schools, shopping malls, commercial buildings etc. are also important.
+
+
+## References
+
+

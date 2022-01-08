@@ -1,6 +1,9 @@
 <h2 align="center"> Hi there 👋 <br> My name is Pushkar </h2>
 
-<p align="center"> I am an Application Software Engineer and an aspiring Data Scientist.
+<p align="center"> I am an IT professional with over 15 years of experience in Application development and maintenance. I have completed DevOps Foundation certification and leading our team's DevOps maturity efforts in terms of establishing fully automated end to end CI/CD pipelines.
+
+I am also an aspiring Data Scientist - currently pursuing Master of Science in Data Science degree at the the Bellevue University with expected completion in March'2022. I believe every day brings new learning opportunities to us and we need to keep an open eye on what might present itself to us. Continued Learning is the way that can lead us towards excellence.
+
 </p>
 <br/>
 
@@ -47,6 +50,27 @@
 #### Version Control
 
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github)
+
+
+Data Science Portfolio
+
+## [Data Science - Github Portfolio](https://github.com/pchougule-ms/pchougule-ms/tree/main/Data%20Science%20Portfolio)
+
+Below projects are part of my Data Science portfolio
+
+-  [Airline Safety - Data Visualization]
+
+-  [Auto Insurance Claims Exploratory Data Analysis using Python]
+
+-  [COVID-19 Cases and Vaccinations Study - Data Wrangling and Analytics]
+
+-  [Credit Card Lead Predictions]
+
+-  [Current Day Weather Forecast](https://github.com/pchougule-ms/pchougule-ms/tree/main/Data%20Science%20Portfolio/Current%20Day%20Weather%20Forecast)
+
+-  [Housing Prices Exploratory Data Analysis using R](https://github.com/pchougule-ms/pchougule-ms/tree/main/Data%20Science%20Portfolio/Housing%20Prices%20EDA)
+
+-  [Telecom Company Customer Churn Predictions]
 
 
 <!--

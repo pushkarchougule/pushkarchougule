@@ -58,7 +58,7 @@ Data Science Portfolio
 
 Below projects are part of my Data Science portfolio
 
--  [Airline Safety - Data Visualization](https://github.com/pchougule-ms/pchougule-ms/tree/main/Data%20Science%20Portfolio/Airline%20Safety)
+-  [Airline Safety - Facts vs. Myths - Data Visualization and Storytelling](https://github.com/pchougule-ms/pchougule-ms/tree/main/Data%20Science%20Portfolio/Airline%20Safety)
 
 -  [Auto Insurance Claims Exploratory Data Analysis using Python]
 

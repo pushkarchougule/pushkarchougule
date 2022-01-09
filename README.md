@@ -54,7 +54,7 @@ I am also an aspiring Data Scientist - currently pursuing Master of Science in D
 
 Data Science Portfolio
 
-## [Data Science - Github Portfolio](https://pchougule-ms.github.io/)
+## [Data Science - Portfolio page](https://pchougule-ms.github.io/)
 
 
 <!--

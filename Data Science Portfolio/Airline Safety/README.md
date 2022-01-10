@@ -1,5 +1,5 @@
 <h3 align="center"> <a href="https://github.com/pchougule-ms/pchougule-ms/tree/main/Data%20Science%20Portfolio/Airline%20Safety"> Airline Safety - Facts vs. Myths </a></h3>
-<img src="images/AirSafety_flightsafety.org_resource_aviation-safety-network.jpg"/> <br/>
+<img src="pchougule-ms.github.io/images/AirSafety_flightsafety.org_resource_aviation-safety-network.jpg"/> <br/>
 
 <p align="justify">This project focused on the - Data Visualization and Storytelling aspects of the Data Science using variety of tools like Tableau and Power BI along with Infographics designs and blogs.</p>
 

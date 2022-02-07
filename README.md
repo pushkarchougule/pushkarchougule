@@ -1,4 +1,4 @@
-# About Me:
+# About:
 
 <h2 align="center"> Hi there 👋 <br> My name is Pushkar </h2>
 

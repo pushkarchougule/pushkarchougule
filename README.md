@@ -55,11 +55,7 @@ I have completed DevOps Foundation certification. As a part of Enterprise DevOps
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github)
 
 
-#### Tools and IDEs
-
-###### PyCharm
-###### Google Colab
 
 
-
+# Work / Projects Repository:
 ## [Data Science - Portfolio page](https://pchougule-ms.github.io/)

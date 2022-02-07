@@ -1,8 +1,10 @@
 <h2 align="center"> Hi there 👋 <br> My name is Pushkar </h2>
 
-<p align="center"> I am an IT professional with over 15 years of experience in Application development and maintenance. I have completed DevOps Foundation certification and leading our team's DevOps maturity efforts in terms of establishing fully automated end to end CI/CD pipelines.
+<p align="center"> I am an IT professional with over 15 years of experience in Application development and maintenance. I have experience working in Finance (Payments and Credit Cards) and Healthcare (Insurance providers / payers) domains with the best in class organizations in these respective fields.
 
-I am also an aspiring Data Scientist - currently pursuing Master of Science in Data Science degree at the the Bellevue University with expected completion in March'2022. I believe every day brings new learning opportunities to us and we need to keep an open eye on what might present itself to us. Continued Learning is the way that can lead us towards excellence.
+I am also an aspiring Data Scientist - currently pursuing Master of Science in Data Science degree at the the Bellevue University with expected completion in March'2022. I believe every day brings new learning opportunities to us and we need to keep an open eye on what might present itself to us. Continued Learning is the way that can help us continue to improve and can eventually lead us towards excellence. And that's the way I look forward to every day in the life.
+
+I have completed DevOps Foundation certification and leading our team's DevOps maturity efforts in terms of establishing fully automated end to end CI/CD pipelines.
 
 </p>
 <br/>

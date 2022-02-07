@@ -1,5 +1,5 @@
 <h3 align="center"><a href="https://github.com/pchougule-ms/pchougule-ms/tree/main/Data%20Science%20Portfolio/Sales%20Predictions"> Sales Forecast </a></h3>
-<img src="Sales-Forecast_https_sopsa.org_articles_the-complete-guide-to-building-a-sales-forecast.jpg"/>
+<img src="images/Sales-Forecast_https_sopsa.org_articles_the-complete-guide-to-building-a-sales-forecast.jpg"/>
 
 <p align="justify">Global Superstore company offers and sells variety of products throughout the year. They need to keep up with the customer demands in terms of the quality and quantity of the products. At the same time, optimal amount of inventory needs to be maintained to keep up with all the delivery timelines. It also needs to be maintain adequate staff to serve all the customer needs, both in store and online demands. Hence, in order to fulfil the customer needs, it would be ideal to predict / know what the demand forecast looks like. This can be achieved by accurately predicting the Sales estimates for the products in near future, which in turn can help determine the optimal levels of product inventory to be maintained.</p>
 

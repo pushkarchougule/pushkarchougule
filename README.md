@@ -24,8 +24,7 @@ I have completed DevOps Foundation certification. As a part of Enterprise DevOps
 ![Python](https://img.shields.io/badge/-Python-FF6F00?style=for-the-badge&logo=Python&logoColor=white)
 ![R](https://img.shields.io/badge/-R-165CAA?style=for-the-badge&logo=R&logoColor=white)
 ![SQL](https://img.shields.io/badge/-SQL-306998?style=for-the-badge&logo=SQL&logoColor=white)
-![COBOL]
-![JCL]
+
 
 
 #### Libraries I Use
@@ -58,8 +57,8 @@ I have completed DevOps Foundation certification. As a part of Enterprise DevOps
 
 #### Tools and IDEs
 
-![PyCharm]
-![Google Colab]
+###### PyCharm
+###### Google Colab
 
 
 

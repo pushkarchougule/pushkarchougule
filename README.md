@@ -59,6 +59,9 @@ I have completed DevOps Foundation certification. As a part of Enterprise DevOps
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github)
 
 
+#### Tools
+![GoogleColab](https://img.shields.io/badge/-GoogleColab-F9AB00?style=for-the-badge&logo=googlecolab)
+
 
 
 # Work / Projects Repository:

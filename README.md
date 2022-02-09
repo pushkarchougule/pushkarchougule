@@ -39,6 +39,7 @@ I have completed DevOps Foundation certification. As a part of Enterprise DevOps
 ![Scikit](https://img.shields.io/badge/-scikit%20learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?style=for-the-badge&logo=Plotly&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/Seaborn-6478a6?style=for-the-badge&logo=Seaborn&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=SQLite&logoColor=white)
 ![Requests](https://img.shields.io/badge/Requests-black.svg?style=for-the-badge&logo=Requests&logoColor=white)
 
 #### Visualization Software

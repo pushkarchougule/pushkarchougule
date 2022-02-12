@@ -1,4 +1,4 @@
-<h3 align="center"> <b><u>Airline Safety - Facts vs. Myths</u></b></h3>
+<h3 align="center"> <u><b>Airline Safety - Facts vs. Myths</b></u></h3>
 
 <p align="justify">This project focused on the - Data Visualization and Storytelling aspects of the Data Science. Learnings involved usage of variety of tools like Tableau and Microsoft Power BI along with Infographics designs and blogs. The final presentation in the form of recorded video is available.</p>
 

@@ -1,5 +1,5 @@
 <h3 align="center">Current Day Weather Forecast</h3>
-<img src="images/weather_image_https_newsonair.gov.in_News_title_Weather-conditions-of-various-places-across-country&id_390362.jpg">
+
 
 <p align="justify">This project was the opportunity to create a Python based user interactive application to present the Current Days weather forecast for the users based on the zip code or the location in the form of City / City, State / City, State, Country. This was the very interesting opportunity when initially starting the journey in the field of Data Science.</p>
 

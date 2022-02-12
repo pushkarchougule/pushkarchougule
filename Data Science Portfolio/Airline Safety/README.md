@@ -4,5 +4,3 @@
 
 <p align="justify">Airline Safety study aims to verify and present the safety facts for air travels and how it compares with other modes of transportation. The study highlights  the air travel has made major improvements in terms of safety over the past few decades and is reflected in the statistics. Thus it in fact is the safest form of travel.</p>
 <br/>
-
-<img src="images/AirSafety_flightsafety.org_resource_aviation-safety-network.jpg"/> <br/>

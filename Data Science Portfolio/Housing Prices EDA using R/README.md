@@ -1,5 +1,4 @@
-<h3 align="center"><a href="https://github.com/pchougule-ms/pchougule-ms/tree/main/Data%20Science%20Portfolio/Sales%20Predictions"> Housing Prices Exploratory Data Analysis using R </a></h3>
-<img src="images/housing_https_miro.medium.com_max_1400_1_Zr0rsnWzE0A_fqCHfDndMA.jpg"/>
+<h3 align="center"> Housing Prices Exploratory Data Analysis using R </h3>
 
 <p align="justify">With the in-demand housing market and increasing prices, Real estate / Housing prices topic had gotten my interest. Along with external financial market conditions in a country, various factors contribute to the sale prices of houses / residential properties like size of property, living area, the localities / neighborhood, age of property, number of rooms, building quality to name a few.</p>
 

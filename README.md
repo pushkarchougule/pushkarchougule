@@ -65,7 +65,7 @@ I have completed DevOps Foundation certification. As a part of Enterprise DevOps
 #### IDEs / Tools
 ![GoogleColab](https://img.shields.io/badge/-GoogleColab-F9AB00?style=for-the-badge&logo=GoogleColab&logoColor=white)
 ![PyCharm](https://img.shields.io/badge/-PyCharm-000000?style=for-the-badge&logo=PyCharm&logoColor=white)
-![PyCharm](https://img.shields.io/badge/-Topaz-43b02a?style=for-the-badge&logo=Topaz&logoColor=white)
+![TOPAZ](https://img.shields.io/badge/-Topaz-43b02a?style=for-the-badge&logo=Topaz&logoColor=white)
 
 
 # Work / Projects Repository:

@@ -73,4 +73,4 @@ I have completed DevOps Foundation certification. As a part of Enterprise DevOps
 
 # Contact:
 #### LinkedIn : https://www.linkedin.com/in/pushkar-c-b7221915/       
-##### (<u>Please logon to LinkedIn to view</u>)
+##### (Please logon to LinkedIn to view)

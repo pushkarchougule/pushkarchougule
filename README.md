@@ -32,7 +32,6 @@ I have completed DevOps Foundation certification. As a part of Enterprise DevOps
 
 
 #### Libraries I Use
-
 ![Numpy](https://img.shields.io/badge/-numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/-pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Scipy](https://img.shields.io/badge/-Scipy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
@@ -48,7 +47,6 @@ I have completed DevOps Foundation certification. As a part of Enterprise DevOps
 
 
 #### Machine Learning and Deep Learning
-
 ![Tensorflow](https://img.shields.io/badge/-tensorflow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Keras](https://img.shields.io/badge/-keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=for-the-badge&logo=Jupyter&logoColor=white)
@@ -56,7 +54,6 @@ I have completed DevOps Foundation certification. As a part of Enterprise DevOps
 
 
 #### Version Control
-
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github)
 ![ISPW](https://img.shields.io/badge/-ISPW-FF6F00?style=for-the-badge&logo=ISPW&logoColor=white)
 ![Changeman](https://img.shields.io/badge/-Changeman-8CAAE6?style=for-the-badge&logo=Changeman&logoColor=white)
@@ -66,6 +63,7 @@ I have completed DevOps Foundation certification. As a part of Enterprise DevOps
 ![GoogleColab](https://img.shields.io/badge/-GoogleColab-F9AB00?style=for-the-badge&logo=GoogleColab&logoColor=white)
 ![PyCharm](https://img.shields.io/badge/-PyCharm-000000?style=for-the-badge&logo=PyCharm&logoColor=white)
 ![TOPAZ](https://img.shields.io/badge/-Topaz-43b02a?style=for-the-badge&logo=Topaz&logoColor=white)
+
 
 
 # Work / Projects Repository:

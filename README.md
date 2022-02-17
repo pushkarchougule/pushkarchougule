@@ -27,7 +27,7 @@ I have completed DevOps Foundation certification. As a part of Enterprise DevOps
 ![R](https://img.shields.io/badge/-R-165CAA?style=for-the-badge&logo=R&logoColor=white)
 ![SQL](https://img.shields.io/badge/-SQL-306998?style=for-the-badge&logo=SQL&logoColor=white)
 ![COBOL](https://img.shields.io/badge/-COBOL-34A853?style=for-the-badge&logo=COBOL&logoColor=white)
-![JCL](https://img.shields.io/badge/-JCL-5F5F5F?style=for-the-badge&logo=JCL&logoColor=white)
+![JCL](https://img.shields.io/badge/-JCL-645544?style=for-the-badge&logo=JCL&logoColor=white)
 
 
 

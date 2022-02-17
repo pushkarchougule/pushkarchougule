@@ -1,5 +1,5 @@
-<h3 align="center"><a href="https://github.com/pchougule-ms/pchougule-ms/tree/main/Data%20Science%20Portfolio/Sales%20Predictions"> Telecom Company Customer Churn Predictions </a></h3>
-<img src="images/Telco_customer_churn_https_www.tibco.com_blog_wp-content_uploads_2013_01_17450178.cms_.jpg"/>
+<h3 align="center"> Telecom Company Customer Churn Predictions </h3>
+</br>
 
 <p align="justify">Telecom companies offer many interesting plans for different customers and invest lot of money to attract new customers in the way of special plans and advertisements. After onboarding the new customers, it is very important to retain them for a longer duration of time. The telecom company is concerned about customers leaving the company’s services, which means all the campaigning efforts and new enrollment offer spent to attract customers would be in vain. So, to overcome this issue and minimize the impact of customer churn, it would help to identify and proactively reach out to the company’s customers who would possibly churn in a given month. This helps in retaining business and in turn potentially growing customer base for future, with Happy customers refer their friends and families to the company.</p>
 

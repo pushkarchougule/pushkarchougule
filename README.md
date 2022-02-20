@@ -64,12 +64,12 @@ I have completed DevOps Foundation certification. As a part of Enterprise DevOps
 ![PyCharm](https://img.shields.io/badge/-PyCharm-000000?style=for-the-badge&logo=PyCharm&logoColor=white)
 ![TOPAZ](https://img.shields.io/badge/-Topaz-43b02a?style=for-the-badge&logo=Topaz&logoColor=white)
 
-
+##
 
 # Work / Projects Repository:
 ## [Data Science - Portfolio page](https://pchougule-ms.github.io/)
 
-
+###
 
 # Contact:
 #### LinkedIn : https://www.linkedin.com/in/pushkar-c-b7221915/       

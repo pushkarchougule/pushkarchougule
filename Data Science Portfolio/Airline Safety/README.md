@@ -8,5 +8,5 @@
 <ul style="list-style-type:disc;">
   <li>Microsoft Power BI</li>
   <li>Tableau</li>
-  <li>Infographics</li>
+  <li>Infographics (using Canva)</li>
 </ul>

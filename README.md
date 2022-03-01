@@ -41,9 +41,10 @@ I have completed DevOps Foundation certification. As a part of Enterprise DevOps
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=SQLite&logoColor=white)
 
 
-#### Visualization Software
+#### Visualization Software / Tools
 ![Tableau](https://img.shields.io/badge/-Tableau-3F4F75?style=for-the-badge&logo=tableau&logoColor=white)
 ![PowerBI](https://img.shields.io/badge/-Power%20BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)
+![Canva](https://img.shields.io/badge/-Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=black)
 
 
 #### Machine Learning and Deep Learning

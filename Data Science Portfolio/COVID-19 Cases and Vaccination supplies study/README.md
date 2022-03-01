@@ -9,6 +9,7 @@
   <li>Data Gathering & Understanding</li>
   <li>Data cleaning / enrichment</li>
   <li>Data Web scrapping</li>
+  <li>Data Collection via Web APIs</li>
   <li>Data Structuring / Formatting</li>
   <li>Data Validation</li>
   <li>Data Visualization</li>

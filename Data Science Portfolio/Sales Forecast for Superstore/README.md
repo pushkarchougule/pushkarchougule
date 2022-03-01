@@ -8,8 +8,13 @@
 <br/>
 
 
-<p>Project includes usage of below Machine Learning models for Sales Predictions:</p>
+<p>Project includes usage of below Exploratory Analysis techniques and Machine Learning models for Sales Predictions:</p>
 <ul style="list-style-type:disc;">
+  <li>Statistial Analysis</li>
+  <li>Bar Charts</li>
+  <li>Pie Charts</li>
+  <li>Line Charts</li>
+  <li>Stationarity Test (Augmented Dickey Fuller test)</li>
   <li>SARIMA - Seasonal Auto Regressive Integrated Moving Average model</li>
   <li>FB Prophet</li>
   <li>Neural Prophet</li>

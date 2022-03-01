@@ -6,3 +6,14 @@
 <p align="justify">As a part of this project, I followed CRISP-DM method to execute the end to end Data Science project, involving Telecom Customer Churn Predictions. This involved Business Understanding, Data understanding and gathering, Data Wrangling and Preparation, Machine Learning Modeling and Evaluation and Finally the working system to prepare the final predictions with desired accuracy.</p>
 
 <br/>
+
+
+<p>Project includes usage of below Exploratory Analysis techniques and Machine Learning models for Customer Churn Predictions:</p>
+<ul style="list-style-type:disc;">
+  <li>Statistical Analysis</li>
+  <li>Histograms</li>
+  <li>Stacked Bar charts</li>
+  <li>Logistic Regression</li>
+  <li>Random Forest Classifier</li>
+  <li>Gausian Naive Bayes classifiers</li>
+</ul>

@@ -8,7 +8,7 @@
 <br/>
 
 
-<p>Project includes usage of below Exploratory Analysis techniques and Machine Learning models for Customer Churn Predictions:</p>
+<p>Project includes usage of below Exploratory Analysis techniques and Machine Learning models for Telecom Customer Churn Predictions:</p>
 <ul style="list-style-type:disc;">
   <li>Statistical Analysis</li>
   <li>Histograms</li>

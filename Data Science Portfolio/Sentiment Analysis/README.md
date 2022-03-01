@@ -1,7 +1,7 @@
-<h3 align="center">Sentiment Analysis</h3>
+<h3 align="center">Sentiment Analysis for Baby Products</h3>
 
 
-<p align="justify">As a part of this project, I followed CRISP-DM method to execute the end to end Data Science project, involving Baby Products Sentiments Analysis. This involved Business Understanding, Data understanding and gathering, Data Wrangling and Preparation, Machine Learning Modeling and Evaluation and Finally the working system to prepare the final predictions with desired accuracy.
+<p align="justify">As a part of this project, I followed CRISP-DM method to execute the end to end Data Science project, involving Sentiments Analysis for the Baby Products. This involved Business Understanding, Data understanding and gathering, Data Wrangling and Preparation, Machine Learning Modeling and Evaluation and Finally the working system to prepare the final predictions with desired accuracy.
 
 <p align="justify">Global giants like Amazon sell varieties of products in multiple categories and one of the important product category is Baby Products. As a part of current business opportunity, company needs to identify the customer feedback on variety of products and analyze the customer sentiments / satisfaction about the products purchased. This also helps in knowing which products are being preferred and in demand the most, by the customers and it can plan on keeping sufficient stocks on these in inventory. It can also be a great source of product improvement opportunities based on the customer feedback.</p>
 

@@ -14,7 +14,7 @@
   <li>Bar Charts</li>
   <li>Pie Charts</li>
   <li>Line Charts</li>
-  <li>Stationarity Test (Augmented Dickey Fuller test)</li>
+  <li>Stationarity Test (Augmented Dickey Fuller - ADF test)</li>
   <li>SARIMA - Seasonal Auto Regressive Integrated Moving Average model</li>
   <li>FB Prophet</li>
   <li>Neural Prophet</li>

@@ -6,3 +6,11 @@
 <p align="justify">As a part of this project, we are looking to help the global superstore with the US sales forecast for the upcoming / rolling 10 days, based on the sales data available for the years 2015 – 2018 based on Order dates. This will help them keep up with the customer demands, appropriate level of inventory maintenance, manage appropriate number of support staff and be prepared with the delivery arrangements.</p>
 
 <br/>
+
+
+<p>Project includes usage of below Machine Learning models for Sales Predictions:</p>
+<ul style="list-style-type:disc;">
+  <li>SARIMA - Seasonal Auto Regressive Integrated Moving Average model</li>
+  <li>FB Prophet</li>
+  <li>Neural Prophet</li>
+</ul>

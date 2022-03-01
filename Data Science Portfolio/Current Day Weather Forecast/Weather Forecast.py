@@ -6,7 +6,7 @@ import requests
 
 url = "https://api.openweathermap.org/data/2.5/weather"  # base url
 # USE a Valid and Active API key relevant for your account
-apikey = "8e3839687c6c8caea0bb0095c94b92b6"  # API key   
+apikey = ""  # Use your API key   
 
 # below query is used in the weather API call for zip code option
 query = {"zip": "00000",

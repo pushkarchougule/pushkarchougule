@@ -7,7 +7,7 @@
 
 <br/>
 
-<p>Project includes usage of below Machine Learning models for Classification:</p>
+<p>Project includes usage of below Machine Learning models for Credit Card Lead Predictions:</p>
 <ul style="list-style-type:disc;">
   <li>Logistic Regression</li>
   <li>Random Forest Classifier</li>

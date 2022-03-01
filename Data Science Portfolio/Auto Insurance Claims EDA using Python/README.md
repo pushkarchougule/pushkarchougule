@@ -9,7 +9,7 @@
 
 <p>Project covers below topics:</p>
 <ul style="list-style-type:disc;">
-  <li>Statistical Analysis - Descriptive / Outliers</li>
+  <li>Statistical Analysis</li>
   <li>Histograms Visualization</li>
   <li>Probablity Mass Function (PMF)</li>
   <li>Cumulative Distribution Function (CDF)</li>

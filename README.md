@@ -34,7 +34,6 @@ I have completed DevOps Foundation certification. As a part of Enterprise DevOps
 #### Libraries I Use
 ![Numpy](https://img.shields.io/badge/-numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/-pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Scipy](https://img.shields.io/badge/-Scipy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
 ![Scikit](https://img.shields.io/badge/-scikit%20learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?style=for-the-badge&logo=Plotly&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/Seaborn-6478a6?style=for-the-badge&logo=Seaborn&logoColor=white)

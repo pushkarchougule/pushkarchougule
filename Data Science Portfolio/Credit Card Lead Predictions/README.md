@@ -6,3 +6,13 @@
 <p align="justify">A Private Bank offers variety of products like Checking / Savings accounts, investment products, credit products etc. The bank intends to cross-sell products to its existing customer base via different channels like emails, telephone calls, recommendations on online banking interfaces like mobile apps etc. As a part of current business opportunity, bank plans on identifying the potential customers from the list of eligible customers. </p>
 
 <br/>
+
+<p>Project includes usage of below Machine Learning models for Classification:</p>
+<ul style="list-style-type:disc;">
+  <li>Logistic Regression</li>
+  <li>Random Forest Classifier</li>
+  <li>Gausian Naive Bayes classifiers</li>
+  <li>Gradient Boost classifiers</li>
+  <li>ADA Boost classifiers</li>
+  <li>XG Boost classifiers</li>
+</ul>

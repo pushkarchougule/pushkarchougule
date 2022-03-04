@@ -1,4 +1,4 @@
-<h3 align="center">Sentiment Analysis for Baby Products</h3>
+<h3 align="center">Sentiment Analysis for Baby Products on Amazon</h3>
 
 
 <p align="justify">As a part of this project, I followed CRISP-DM method to execute the end to end Data Science project, involving Sentiments Analysis for the Baby Products. This involved Business Understanding, Data understanding and gathering, Data Wrangling and Preparation, Machine Learning Modeling and Evaluation and Finally the working system to prepare the final predictions with desired accuracy.

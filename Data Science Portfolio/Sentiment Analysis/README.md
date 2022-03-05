@@ -15,7 +15,9 @@
   <li>Regular Expressions (re) for text cleanup</li>
   <li>Tfidf vectorizer</li>
   <li>Count vectorizer</li>
+  <li>Count vectorizer with n-grams</li>
   <li>Multi Layered Perceptron (MLP) classifiers (sci-kit learn)</li>
+  <li>Multinominal Naive Bayes classifiers (sci-kit learn)</li>
   <li>Artificial Neural Network (Keras Sequential)</li>
   <li>Recurrent Neural Network (RNN) - LSTM model</li>
   <li>TextBlob Sentiment Analysis</li>

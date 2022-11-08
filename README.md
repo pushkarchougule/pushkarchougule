@@ -3,7 +3,7 @@
 <h2 align="center"> Hi there 👋 <br> My name is Pushkar </h2>
 
 
-<p align="justify"> I am an IT professional with over 16 years of experience in the industry and currently working as Machine Learning Engineer with a Renowned organization in the Finance domain. I am also an aspiring Data Scientist and I hold Master of Science in Data Science degree.
+<p align="justify"> I am an IT professional with over 16 years of experience in the industry and currently working as Machine Learning Engineer leading a team within Renowned Finance domain organization. I am also an aspiring Data Scientist and I hold Master of Science in Data Science degree.
 
 My experience includes Application development and maintenance, starting as junior engineer, transitioning into senior engineer roles and taking on responsibilities as technical lead and project lead roles in the process. In the Project lead / Technical lead roles, I have been responsible for designing E2E solutions, overseeing the work for the team of developers at various stages in the career, mentoring the team members and responsible for their annual performance evaluation. I have worked in <b>Finance</b> and <b>Healthcare</b> domains with the best in class organizations. Finance domain experience spans across payments, acquisitions, credit cards and platform improvements along with data analytics and insights generation, for execution of business strategies, addressing customer concerns, designing preventive measures by closely partnering with business and tech teams. Healthcare domain experience includes Claims payments, fraud detection, financial recoveries and Healthcare Providers (Hospitals / Physicians) demographic maintenance systems.
 

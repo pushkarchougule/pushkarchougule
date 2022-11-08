@@ -2,9 +2,10 @@
 
 <h2 align="center"> Hi there 👋 <br> My name is Pushkar </h2>
 
+
 <p align="justify"> I am an IT professional with over 16 years of experience in Application development and maintenance, starting as junior engineer, transitioning into senior engineer roles and taking on responsibilities as technical lead and project lead roles in the process. In the Project lead / Technical lead roles, I have been responsible for designing E2E solutions, overseeing the work for the team of developers at various stages in the career, guiding the team members and responsible for their performance evaluation. I have worked in <b>Finance</b> and <b>Healthcare</b> domains with the best in class organizations. Finance domain experience spans across Merchant payments, acquisitions, credit cards and platform improvements. Healthcare domain experience includes Claims payments, fraud detection, financial recoveries and Healthcare Providers (Hospitals / Physicians) demographic maintenance systems.
 
-I am also an aspiring Data Scientist and currently working as Machine Learning Engineer with a Renowned organization in the Finance domain. I hold Master of Science in Data Science degree as well. 
+I am also an aspiring Data Scientist and currently working as Machine Learning Engineer with a Renowned organization in the Finance domain. I hold Master of Science in Data Science degree as well.
 
 I believe every day brings new learning opportunities to us and we need to keep an open eye on what might present itself to us. Continued Learning is the way that can help us improve and can eventually lead us towards excellence. And that's the way I look forward to every day in the life.
 
@@ -14,7 +15,7 @@ I have completed DevOps Foundation certification. As a part of Enterprise DevOps
 <br/>
 
 <div align="center">
-<a href="https://github.com/pchougule-ms" target="_blank">
+<a href="https://github.com/pushkarchougule" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
 </a>
 
